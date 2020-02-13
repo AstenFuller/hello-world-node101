@@ -7,7 +7,6 @@
     "test": "test"
   },
   "scripts": {
-    "build": "npm start",
     "test": "mocha test --exit",
     "start": "node index.js"
   },
