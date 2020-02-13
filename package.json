@@ -7,7 +7,6 @@
     "test": "test"
   },
   "scripts": {
-    "build": "npm run build --output public",
     "test": "mocha test --exit",
     "start": "node index.js"
   },
