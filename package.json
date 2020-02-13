@@ -7,8 +7,14 @@
     "test": "test"
   },
   "scripts": {
+    "build": "npm run webpack --mode development",
     "test": "mocha test --exit",
     "start": "node index.js"
+  },
+  "dependencies": {
+    "lodash-webpack-plugin": "^0.10.2",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^3.3.9"
   },
   "author": "",
   "license": "ISC",
