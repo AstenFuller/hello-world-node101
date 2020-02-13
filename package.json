@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "build": "npm run webpack --mode development",
+    "build": "npm run build",
     "test": "mocha test --exit",
     "start": "node index.js"
   },
