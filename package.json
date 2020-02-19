@@ -9,7 +9,7 @@
   "scripts": {
     "build": "react-scripts build",
     "test": "mocha test --exit",
-    "start": "node index.js"
+    "start": "npm run build && node index.js"
   },
   "dependencies": {
     "react-scripts": "2.1.1"
