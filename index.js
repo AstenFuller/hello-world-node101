@@ -8,6 +8,8 @@ const server = http.createServer(function (req, res) {
     res.end('Hello World');
 });
 
-server.listen(8080, 'localhost', null, function() {
-    console.log('Server is listening on localhost:8080');
+const PORT = process.env.PORT || 8080
+
+server.listen(PORT, 'localhost', null, function() {
+    console.log(`Server is listening on localhost:${PORT});
 })
